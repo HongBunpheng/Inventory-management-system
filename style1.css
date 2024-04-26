@@ -1,0 +1,54 @@
+.Container {
+    border : 3px solid rgb(18, 2, 2);
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+.Wrapper{
+    flex-grow: 3;
+}
+.Wrapper1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 6;
+}
+.Cbox1{
+    background-color: lightcoral;
+    height: 150px;
+    
+}
+.Cbox2{
+    background-color: lightgreen;
+    height: 150px;
+   
+}
+.Cbox3{
+    background-color: violet;
+    height: 150px;
+}
+.Cbox4{
+    background-color: gray;
+    height: 150px;
+}
+.wrappy{
+    display: flex;
+    flex-direction: row;
+}
+.Cbox5{
+    background-color: lightskyblue;
+    width: 50px;
+    height: 300px;
+    flex-grow: 1;
+}
+.Cbox6{
+    background-color: lightpink;
+    width: 50px;
+    height: 300px;
+    flex-grow: 1;
+}
+.Cbox7{
+    background-color: lightsalmon;
+    width: 50px;
+    height: 300px;
+    flex-grow: 1;
+}
