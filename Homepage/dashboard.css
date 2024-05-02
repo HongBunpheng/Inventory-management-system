@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    min-height: 100vh;
+    background: url(1120.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .wrapper{
+    min-height: 90vh;
+    color:  darkslategray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .box1{
+    width: 200px;
+    color:  darkslategray;
+    font-size: 24px;
+    border-radius: 10px;
+    background: none;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    display:flex;
+    flex-direction: column;
+    padding: 9px;
+    margin-left: 5px;
+    position: relative;
+    
+  }
+  .boxx1{
+    position: absolute;
+    height: 30px;
+    color:  darkslategray;
+    border-radius: 10px;
+    border-color: darkslategray;
+    padding: 10px;
+    top: 0%;
+    left:35%;
+    right: 0px;
+    translate: 50% 25%;
+  }
+  .boxx2{
+    color:  darkslategrey;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    left:50%;
+    right: 0px;
+    translate: -50% -10%;
+    
+  }
+  .boxx3{
+    color: darkslategrey;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    top: 31%;
+    left:50%;
+    right: 0px;
+    translate: -50% -120%;
+    
+  }
+  .boxx4{
+    color:  darkslategrey;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background: transparent;
+    border-radius: 40px;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    background: none;
+    top: 43%;
+    left:50%;
+    right: 0px;
+    translate: -50% -120%;
+    
+  }
+  .boxx5{
+    color:  darkslategrey;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background: transparent;
+    border-radius: 40px;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    top: 55%;
+    left:50%;
+    right: 0px;
+    translate: -50% -120%;
+    
+  }
+  .boxx6{
+    color:  darkslategray;
+    border-radius: 10px;
+    border-color: darkslategray;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    top: 58%;
+    left:16%;
+    right: 0px;
+    translate: 25% 250%;
+    
+  }
+  .boxx7{
+    color:  darkslategray;
+    border-radius: 10px;
+    border-color: darkslategray;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    top: 62%;
+    left:15%;
+    right: 0px;
+    translate: 25% 300%;
+    
+  }
+  .box2{
+    justify-content: left;
+    width: 650px;
+    color:  darkslategray;
+    font-size: 24px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    
+  }
+  a{
+    color: darkslategray;
+  }
+  p{
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .booxx1{
+    height: 15%;
+    text-align: center;
+    color:  darkslategray;
+    font-size: 35px;
+    border-radius: 10px;
+    background: none;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 25px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .booxx2{
+    height: 100%;
+    justify-content: left;
+    color:  darkslategray;
+    font-size: 24px;
+    border-radius: 10px;
+    background: none;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5%;
+  }
+  button:hover {
+    background-color: darkslategray;
+    color: gray;
+  }
+
+  .sbox1 {
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    color:  rgb(60, 63, 67);
+    padding-left: 10px;
+ 
+  }
+  input{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 15px;
+    color:  rgb(60, 63, 67);
+    padding: 20px;
+ 
+  }
+  .sbox1 input::placeholder{
+    color: darkslategray;
+
+  }
+  .sbox1 i{
+    position: absolute;
+    right: 51%;
+    top: 43%;
+    transform: translate(-50%);
+    font-size: 19px;
+    color: darkslategray;
+  
+  }
+  .sbox2 i{
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    transform: translate(-50%);
+    font-size: 35px;
+    color: darkslategray;
+  
+  }
+
+  
