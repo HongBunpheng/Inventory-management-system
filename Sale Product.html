@@ -15,7 +15,7 @@
     background-position: center;
   }
 
-  /* Your existing CSS styles */
+  /* CSS styles */
   label {
     display: block;
     margin-bottom: 5%;
@@ -75,7 +75,7 @@
 
 <script>
 document.getElementById("salesForm").addEventListener("submit", function(event) {
-  event.preventDefault(); // Prevent form submission
+  event.preventDefault();
 
   // Get form data
   const customerCode = document.getElementById("customerCode").value;
@@ -91,12 +91,12 @@ document.getElementById("salesForm").addEventListener("submit", function(event) 
   console.log("Selling Price:", sellingPrice);
   console.log("Quantity:", quantity);
 
-  // Clear the form after submission
+  
   this.reset();
 });
 
 document.getElementById("deleteBtn").addEventListener("click", function() {
-  // Perform delete action (e.g., clear data or remove from database)
+ 
   console.log("Data deleted.");
 });
 
