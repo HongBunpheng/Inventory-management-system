@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sales Interface</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 200px;
+    /* Background photo */
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Your existing CSS styles */
+  label {
+    display: block;
+    margin-bottom: 5%;
+  }
+  input[type="text"], input[type="date"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #19241a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px 9px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+</style>
+
+</head>
+<body>
+<h1>Sales Interface</h1>
+<form id="salesForm">
+  <label for="customerCode">Customer Code:</label>
+  <input type="text" id="customerCode" name="customerCode" required>
+  
+  <label for="productCode">Product Code:</label>
+  <input type="text" id="productCode" name="productCode" required>
+  
+  <label for="date">Date:</label>
+  <input type="date" id="date" name="date" required>
+  
+  <label for="sellingPrice">Selling Price:</label>
+  <input type="number" id="sellingPrice" name="sellingPrice" required>
+  
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" required>
+  
+  <button type="submit" id="sellProductBtn">Sell Product</button>
+  <button type="button" id="deleteBtn">Delete</button>
+  <button type="button" id="clearBtn">Clear</button>
+</form>
+
+<script>
+document.getElementById("salesForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent form submission
+
+  // Get form data
+  const customerCode = document.getElementById("customerCode").value;
+  const productCode = document.getElementById("productCode").value;
+  const date = document.getElementById("date").value;
+  const sellingPrice = document.getElementById("sellingPrice").value;
+  const quantity = document.getElementById("quantity").value;
+
+  // Perform actions with the data (e.g., submit to a backend, display, etc.)
+  console.log("Customer Code:", customerCode);
+  console.log("Product Code:", productCode);
+  console.log("Date:", date);
+  console.log("Selling Price:", sellingPrice);
+  console.log("Quantity:", quantity);
+
+  // Clear the form after submission
+  this.reset();
+});
+
+document.getElementById("deleteBtn").addEventListener("click", function() {
+  // Perform delete action (e.g., clear data or remove from database)
+  console.log("Data deleted.");
+});
+
+document.getElementById("clearBtn").addEventListener("click", function() {
+  document.getElementById("salesForm").reset(); // Clear the form
+});
+</script>
+</body>
+</html>
